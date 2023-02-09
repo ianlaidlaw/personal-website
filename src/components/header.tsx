@@ -23,7 +23,7 @@ export function Header() {
                 key={`route-${route}`} 
                 className={isActive ?'disabled' : ''} 
                 onClick={() => setCurrentRoute(route)} 
-                to="/"
+                to={route}
             >
                 {text}
             </Link>
